@@ -107,8 +107,21 @@
         },
         "routing": {
             "config": {},
-            "routes": [],
-            "targets": {}
+            "routes": [           
+                {
+                "name": "ToProducts",
+                "pattern": "",
+                "target": [ "TargetProducts" ]
+                } ],
+            "targets": {
+                "TargetProducts": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewId": "ToProducts",
+                    "viewName": "ToProducts"
+                }
+            }
         }
     },
     "sap.ui.generic.app": {

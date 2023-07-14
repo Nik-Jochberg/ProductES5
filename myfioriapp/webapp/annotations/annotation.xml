@@ -13,6 +13,7 @@
                         <PropertyPath>to_PriceRange/PriceClassification</PropertyPath>
                         <PropertyPath>to_ProductCategory/MainProductCategory</PropertyPath>
                         <PropertyPath>Supplier</PropertyPath>
+                        <PropertyPath>ProductCategory</PropertyPath>
                     </Collection>
                 </Annotation>
                 <Annotation Term="UI.FieldGroup" Qualifier="TechnicalData">
